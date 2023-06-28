@@ -1,0 +1,88 @@
+body{
+    background-color: purple;
+    color: black;
+}
+
+.fundo{
+    background-color: rgb(250, 234, 250);
+    width: fit-content;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 20px;
+    border: 2px solid purple;
+}
+
+.ecra{
+    background-color: black;
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0 10px 0px;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.ativo{
+    border: 1.5px solid purple;
+    border-radius: 10px;
+    margin: 7px;
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: purple;
+    background-color: white;
+    box-shadow: inset 4px 4px 0 0 rgba(0, 0, 0, 0.08);
+}
+
+.desativo{
+    border: 1.5px solid rgba(128, 0, 128, 0.5);
+    border-radius: 10px;
+    margin: 7px;
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(128, 0, 128, 0.5);
+    background-color: white;
+    box-shadow: inset 4px 4px 0 0 rgba(0, 0, 0, 0.08);
+}
+
+.tecla-maior{
+    width: 128px;
+    height: 50px;
+}
+
+.icon{
+    width: 80px;
+    margin: 0 5px 20px 0;
+}
+
+.botao-on{
+    border-color: green;
+    color: green;
+}
+
+.ativo:hover, .botao-limpar:hover{
+    color: white;
+    background-color: purple;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.08);
+
+}
+
+#entrada{
+    font-size: 20px;
+}
+
+#saida{
+    font-size: 26px;
+}
+
+hr{
+    color: purple;
+}
+
+p{
+    text-align: left; 
+    font-size: 12px;
+}
